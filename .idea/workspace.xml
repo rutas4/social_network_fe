@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="837ff147-54e6-4c39-a554-89647749257e" name="Default Changelist" comment="Init">
-      <change beforePath="$PROJECT_DIR$/src/images/avatar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/avatar.jpg" afterDir="false" />
+    <list default="true" id="837ff147-54e6-4c39-a554-89647749257e" name="Default Changelist" comment="Changed user default picture">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Menu.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +28,11 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,7 +41,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609248843763</updated>
-      <workItem from="1609248845029" duration="1865000" />
+      <workItem from="1609248845029" duration="6317000" />
+      <workItem from="1609266339732" duration="1230000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1609250512147</created>
@@ -43,7 +51,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609250512147</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changed user default picture">
+      <created>1609250756773</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609250756773</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -59,9 +74,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="Changed user default picture" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed user default picture" />
   </component>
 </project>

@@ -12,7 +12,7 @@ const Menu = ({ history }) => (
         <ul className="nav nav-tabs bg-primary">
             <li className="nav-item">
                 <Link className="nav-link" style={isActive(history, '/')} to="/">
-                    Home
+                    Feed
                 </Link>
             </li>
 
@@ -22,12 +22,6 @@ const Menu = ({ history }) => (
                     to="/users"
                 >
                     Users
-                </Link>
-            </li>
-
-            <li className="nav-item">
-                <Link to={`/post/create`} style={isActive(history, `/post/create`)} className="nav-link">
-                    Create Post
                 </Link>
             </li>
 
@@ -56,6 +50,11 @@ const Menu = ({ history }) => (
 
             {isAuthenticated() && (
                 <React.Fragment>
+                    <li className="nav-item">
+                        <Link to={`/post/create`} style={isActive(history, `/post/create`)} className="nav-link">
+                            Create Post
+                        </Link>
+                    </li>
                     <li className="nav-item">
                         <Link to={`/findpeople`} style={isActive(history, `/findpeople`)} className="nav-link">
                             Find People
