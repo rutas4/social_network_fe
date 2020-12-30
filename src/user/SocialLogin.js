@@ -11,25 +11,6 @@ class SocialLogin extends Component {
         };
     }
 
-    responseGoogle = response => {
-        // console.log('response', response);
-        const tokenId = response.tokenId;
-        const user = {
-            tokenId: tokenId
-        };
-
-        socialLogin(user).then(data => {
-            if (data.error) {
-                console.log('Error Login. Please try again..');
-            } else {
-                authenticate(data, () => {
-                    console.log('social login response from api', data);
-                    this.setState({ redirectToReferrer: true });
-                });
-            }
-        });
-    };
-
     render() {
         // redirect
         const { redirectToReferrer } = this.state;
@@ -38,12 +19,7 @@ class SocialLogin extends Component {
         }
 
         return (
-            <GoogleLogin
-                clientId="986344753713-b83nrbkfrjqkr2bernk2i319vb4dcpog.apps.googleusercontent.com"
-                buttonText="Login with Google"
-                onSuccess={this.responseGoogle}
-                onFailure={this.responseGoogle}
-            />
+            <p></p>
         );
     }
 }
